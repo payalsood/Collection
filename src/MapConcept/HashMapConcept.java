@@ -14,6 +14,9 @@ public class HashMapConcept {
 		m.put(1, "test");
 		
 		m.put(1, "t");
+		m.put(null, "h");
+		m.put(4,  "null");
+		m.put(5,  "null");
 		
 		for(Entry hm: m.entrySet()){
 			System.out.println(hm.getKey()+ " " + hm.getValue());
